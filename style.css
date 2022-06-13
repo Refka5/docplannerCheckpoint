@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+}
+.container {
+  width: 1015px;
+  margin: auto;
+}
+
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  padding-top: 70px;
+  -webkit-font-smoothing: antialiased;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ababab;
+}
+.navbarMenu .firstList a:hover,
+.navbarMenu .firstList a.aboutUsTitle {
+  color: #00b39b;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+}
+a {
+  text-decoration: none;
+  color: #dbd7d6;
+}
+
+.secondList {
+  display: block;
+}
+.mainDiv {
+  display: flex;
+}
+.TitleDiv {
+  font-size: 2.125rem;
+  color: #00b39b;
+  text-align: center;
+  margin-top: 10px;
+}
+.mainDiv {
+  margin: 50px;
+  line-height: 1.75;
+  font-weight: 400;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.leadLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.firstSectionn {
+  display: Flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.secondSection {
+  display: flex;
+  margin: 10px;
+
+  justify-content: space-around;
+  color: aliceblue;
+}
+.ForPatients {
+  margin: 20px;
+  background-color: #00b39b;
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  width: 250px;
+  transition: all 0.2s ease 0s;
+}
+.ForDoctors {
+  margin: 20px;
+  background-color: #3d83df;
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  width: 250px;
+}
+.Forclinics {
+  margin: 20px;
+  background-color: #323333;
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  width: 250px;
+}
+#domain-switcher {
+  background-color: white;
+  padding: 5px, 10px;
+  border-radius: 5px;
+}
+.brandsSection {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.TitleSECTION {
+  color: #00b39b;
+}
+.brandsLogos {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 0;
+  list-style: none;
+  width: 50%;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.brandsSection ul li {
+  margin-top: 0;
+  padding: 5px 0 5px 5px;
+  color: #747474;
+}
+
+.brandsSection ul li a {
+  text-decoration: none;
+  padding: 5px 0;
+  background-color: transparent;
+}
+.svg {
+  height: 20px;
+  width: auto;
+  padding-left: 10px;
+}
+
+.svg path {
+  fill: #a7a7a7;
+}
+
+.svg path:hover {
+  fill: #00b39b;
+}
+.grid {
+  display: flex;
+}
